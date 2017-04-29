@@ -2,7 +2,11 @@ import React from 'react';
 
 const ListItem = (props) => (
   <div>
-    { props.item.description }
+	<li>{props.item.title}</li>
+	  <td>
+		<img src={props.item.url} />
+	  </td>
+	  {props.item.description}
   </div>
 )
 

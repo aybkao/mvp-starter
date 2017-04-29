@@ -12,20 +12,22 @@ db.once('open', function() {
 });
 
 var itemSchema = mongoose.Schema({
-  quantity: Number,
+  url: {type: String, unique: true, dropDups: true},
+  title: String,
   description: String
 });
 
 var Item = mongoose.model('Item', itemSchema);
 
-var selectAll = function(callback) {
-  Item.find({}, function(err, items) {
-    if(err) {
-      callback(err, null);
-    } else {
-      callback(null, items);
-    }
-  });
-};
+// var selectAll = function(callback) {
+//   Item.find({}, function(err, items) {
+//     if(err) {
+//       callback(err, null);
+//     } else {
+//       callback(null, items);
+//     }
+//   });
+// };
+//module.exports.selectAll = selectAll;
 
-module.exports.selectAll = selectAll;
+module.exports = Item;
