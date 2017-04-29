@@ -37,7 +37,6 @@ app.post('/itemlist', function (req, res) {
 });
 
 app.get('/items', function (req, res) {
-  console.log("in app.get, this is req.url", req.url)
   Item.find({}, function(err, items) {
     if(err) {
       console.log("cannot get items from mongo")

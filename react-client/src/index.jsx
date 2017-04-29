@@ -73,11 +73,11 @@ class App extends React.Component {
       type: "GET",
       url: 'http://127.0.0.1:3000/items',
       success: (data) => {
-        console.log("successfully got GET request with: ", data)
+        console.log("getData successful GET request from mongodb", data)
         this.setState({items: JSON.parse(data)});
       },
       error: (err) => {
-        console.log("failed GET request from mongodb")
+        console.log("getData failed GET request from mongodb")
         console.log('err', err);
       }
     })
@@ -96,9 +96,8 @@ class App extends React.Component {
       contentType: 'application/json',
       success: () => {
         // after POST request send GET request to get all data
-        console.log("successful starting ajax get request")
+        console.log("successful starting ajax GET request")
         this.getData() ;
-        //console.log("successfully sent POST request with: ", data)
       },
       error: (err) => {
         console.log('err', err);
@@ -111,7 +110,6 @@ class App extends React.Component {
     return (
     <div>
       <h1>Title</h1>
-      
         <label>
            URL : 
           <input type="text" value={this.state.value} onChange={this.handleChangeUrl} />
