@@ -26,7 +26,7 @@ var xkcdSchema = mongoose.Schema({
 
 var Item = mongoose.model('Item', xkcdSchema);
 
-for (var i=1; i<1000; i++) {
+for (var i=600; i<900; i++) {
   var reqUrl = 'https://xkcd.com/' + i + '/info.0.json';
   request(reqUrl, function(error, response, body) {
     if (error) throw error;
