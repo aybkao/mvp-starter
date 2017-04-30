@@ -1,6 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var Item = require('../database-mongo/index.js');
+//var Comic = require('../database-mongo/getXkcd.js');
 var request = require('request');
 var app = express();
 
@@ -19,16 +20,46 @@ app.use('*/*', function(req, res, next) {
 })
 
 app.use(bodyParser.json());
+
+app.get('/search/:kw', function (req, res) {
+  // console.log("keyword: ", req.params.kw);
+  // console.log(req.url);  
+  Item.find(
+  {"transcript": 
+    {"$regex": req.params.kw, 
+     "$options": "i"
+    }
+  }, 
+  function(err, data) {
+    if (err) throw err;
+    console.log("this is returnd data after find", data)
+    res.send(JSON.stringify(data))
+  })
+});
+
+
 app.post('/itemlist', function (req, res) {
   console.log(req.body);
   console.log(req.url);  
   // if url is legit then save into database
   request(req.body.url, function (error, response, body) {
     if (error) {
+      console.log("Fields of object for POST request is wrong")
       throw error;
     } else {
       // insert data into database
-      var oneImage = new Item (req.body);
+      var oneImage = new Item (
+        {
+          url: req.body.url,
+          title: req.body.title,
+          alt: req.body.alt,
+          transcript: 'some words',
+          num: 9999,
+          safe_title: req.body.title,
+          year: '2017',
+          month: '4',
+          day: '29'
+        });
       oneImage.save(function(){
         res.end("POST request works")
       });

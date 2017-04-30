@@ -2,11 +2,13 @@ import React from 'react';
 
 const ListItem = (props) => (
   <div>
-	<li>{props.item.title}</li>
+	<li>
+	  <h4><strong>{props.item.title}</strong></h4>
 	  <td>
 		<img src={props.item.url} />
 	  </td>
-	  {props.item.description}
+	  alt: {props.item.alt}
+	</li>
   </div>
 )
 
