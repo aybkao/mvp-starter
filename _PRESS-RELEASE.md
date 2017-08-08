@@ -17,19 +17,14 @@ Once the project moves into development, the press release can be used as a touc
  -->
  
 ## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
-
-  xkcd finder
-
+  > xkcd finder 
+  
 ## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
-
-  For people who want to reference xkcd often. 
+  > For people who want to reference xkcd often. 
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
 
-  For xkcd fans we all have the one xkcd comic at the tip of our tongue but we don't know how to find it. This app helps!
+  > For xkcd fans we all have the one xkcd comic at the tip of our tongue but we don't know how to find it. This app helps!
 
 ## Problem ##
   > Describe the problem your product solves.
@@ -44,10 +39,11 @@ Once the project moves into development, the press release can be used as a touc
   > Describe how easy it is to get started.
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
 
   > Phong T. Lam   " ...SO THE BEAUTIFUL!!! "
+  
   > jontom11   " ...hahahaha its so useless maybe its kinda good. "
+  
   > Jason   " ... when I am sad I use xkcd finder... and I feel better about my app."
 
 ## Closing and Call to Action ##
