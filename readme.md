@@ -16,27 +16,19 @@ Oh, and I also like to write press-releases in what I call "Oprah-speak" for mai
 Once the project moves into development, the press release can be used as a touchstone; a guiding light. The product team can ask themselves, "Are we building what is in the press release?" If they find they're spending time building things that aren't in the press release (overbuilding), they need to ask themselves why. This keeps product development focused on achieving the customer benefits and not building extraneous stuff that takes longer to build, takes resources to maintain, and doesn't provide real customer benefit (at least not enough to warrant inclusion in the press release).
  -->
  
-## Heading ##
-  > xkcd finder 
-  
-## Sub-Heading ##
-  > For people who want to reference xkcd often. 
-
 ## Summary ##
 
   > As xkcd fans we all have the one xkcd comic at the tip of our tongue but we don't know how to find it. This app helps!
 
-## Problem ##
-  > Describe the problem your product solves.
-
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
-
-## Quote from You ##
-  > A quote from a spokesperson in your company.
+  > Utilize xkcd JSON interface for search. https://xkcd.com/json.html 
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+  > npm run db-start
+
+  > npm run react-dev
+  
+  > npm run server-dev
 
 ## Customer Quote ##
 
@@ -47,4 +39,4 @@ Once the project moves into development, the press release can be used as a touc
   > Jason Y.  " ... when I am sad I use xkcd finder... and I feel better about my app."
 
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+  > https://xkcd.com/1481/
