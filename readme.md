@@ -24,11 +24,12 @@ Once the project moves into development, the press release can be used as a touc
   > Utilize xkcd JSON interface for search. https://xkcd.com/json.html 
 
 ## How to Get Started ##
-  > npm run db-start
 
-  > npm run react-dev
-  
-  > npm run server-dev
+```
+npm run db-start
+npm run react-dev
+npm run server-dev
+```
 
 ## Customer Quote ##
 
