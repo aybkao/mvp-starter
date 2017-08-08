@@ -1,4 +1,4 @@
-# Project Name #
+# XKCD Finder #
 
 <!-- 
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
@@ -46,7 +46,7 @@ Once the project moves into development, the press release can be used as a touc
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
 
-  Phong T. Lam   " ...SO THE BEAUTIFUL!!! "  
+  Phong T. Lam   " ...SO THE BEAUTIFUL!!! "
   jontom11   " ...hahahaha its so useless maybe its kinda good. "
   Jason   " ... when I am sad I use xkcd finder... and I feel better about my app."
 
