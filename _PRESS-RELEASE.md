@@ -24,7 +24,7 @@ Once the project moves into development, the press release can be used as a touc
 
 ## Summary ##
 
-  > For xkcd fans we all have the one xkcd comic at the tip of our tongue but we don't know how to find it. This app helps!
+  > As xkcd fans we all have the one xkcd comic at the tip of our tongue but we don't know how to find it. This app helps!
 
 ## Problem ##
   > Describe the problem your product solves.
