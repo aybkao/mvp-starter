@@ -46,8 +46,8 @@ Once the project moves into development, the press release can be used as a touc
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
 
-  Phong T. Lam   " ...SO THE BEAUTIFUL!!! "
-  jontom11   " ...hahahaha its so useless maybe its kinda good. "
+  Phong T. Lam   " ...SO THE BEAUTIFUL!!! "\n
+  jontom11   " ...hahahaha its so useless maybe its kinda good. "\n
   Jason   " ... when I am sad I use xkcd finder... and I feel better about my app."
 
 ## Closing and Call to Action ##
