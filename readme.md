@@ -27,7 +27,9 @@ Once the project moves into development, the press release can be used as a touc
 
 ```
 npm run db-start
+
 npm run react-dev
+
 npm run server-dev
 ```
 
